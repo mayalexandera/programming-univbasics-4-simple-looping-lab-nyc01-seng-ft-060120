@@ -25,4 +25,9 @@ def output_array(message)
 end
 
 def return_string_array(array)
-end
+  count = 0 
+  while count < array.length do 
+    array[count] = array[count].to_s
+  end
+  array
+ end
